@@ -19,11 +19,13 @@ The notebook at [ingestion/ingestion.ipynb](ingestion/ingestion.ipynb) walks thr
 The UI application is based on Streamlit. 
 
 Let's check that python & pip are installed - they were for me:
+
     which python
     which pip
     which venv
 
 You can install them as sudo if the are missing    
+
     sudo apt install -y python
     sudo apt install -y pip
 
