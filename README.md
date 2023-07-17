@@ -7,7 +7,8 @@ We then use the `gpt-4-32k` model and prompt it to convert questions in English 
 
 ## Setup
 To get started, create a managed notebook in Azure ML. 
-Once that has started, open the notebook and a terminal window within that.  Clone this repo with the command:
+Then create a compute resource.
+Once the compute resource has started,a terminal window within that.  When you open the terminal session as you, lone this repo with the command:
 
     git clone https://github.com/neo4j-partners/intelligent-medical-assistant.git
 
@@ -17,10 +18,14 @@ The notebook at [ingestion/ingestion.ipynb](ingestion/ingestion.ipynb) walks thr
 ## UI
 The UI application is based on Streamlit. 
 
-Let's install python & pip first:
+Let's check that python & pip are installed - they were for me:
+    which python
+    which pip
+    which venv
 
-    apt install -y python
-    apt install -y pip
+You can install them as sudo if the are missing    
+    sudo apt install -y python
+    sudo apt install -y pip
 
 Now, let's create a Virtual Environment to isolate our Python environment and activate it
 
