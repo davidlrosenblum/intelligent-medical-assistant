@@ -28,11 +28,12 @@ You can install them as sudo if the are missing
 
     sudo apt install -y python
     sudo apt install -y pip
-
-Now, let's create a Virtual Environment to isolate our Python environment and activate it
-
     apt-get install -y python3-venv
-    python3 -m venv /app/venv/genai
+
+Now, let's change to the git clone and create a Virtual Environment to isolate our Python environment and activate it
+
+    cd intelligent-medical-assistant
+    python3 -m venv app/venv/genai
     source /app/venv/genai/bin/activate
 
 To install Streamlit and other dependencies:
